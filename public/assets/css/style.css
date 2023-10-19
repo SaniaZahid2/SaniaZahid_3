@@ -1,5 +1,6 @@
 /* This is the original example. You can take all css styles from here. */
-/* Var */
+/* 5 Variables */
+/* 2 mixins */
 body {
   font-family: Quando;
   font-size: 15px;
@@ -16,13 +17,13 @@ p {
   line-height: 1.6em;
 }
 
+/* nesting done here */
 a {
   font-weight: 400;
   text-decoration: none;
   color: #111111;
   transition: 0.2s;
 }
-
 a:hover {
   color: #999999;
 }
@@ -202,6 +203,7 @@ footer {
     border-bottom: 2px solid #324360;
   }
   /* sub nav */
+  /* nesting done here */
   header nav ul ul {
     visibility: hidden;
     opacity: 0;
@@ -209,6 +211,7 @@ footer {
     position: absolute;
     z-index: 9999;
     left: 0;
+    background-color: #ff04e2;
     background: #f0f0f0;
     transition: all 0.2s ease-out;
   }
@@ -220,6 +223,7 @@ footer {
     visibility: visible;
     opacity: 1;
   }
+  /* nesting done here */
   header nav ul ul a {
     display: block;
     color: #111111;
@@ -243,6 +247,7 @@ footer {
     overflow: hidden;
     margin-bottom: 0;
   }
+  /* nesting done here */
   .image-part img {
     transition: transform 3.5s ease-in-out;
   }
@@ -253,16 +258,17 @@ footer {
     flex: 1;
     padding-left: 50px;
   }
+  /* nesting done here */
   /* footer */
   .footer-social-links a {
     margin: 0 28px;
   }
-  .footer-social-links i {
-    margin-right: 5px;
-  }
   .footer-social-links a span {
     display: inline;
     font-size: 11px;
+  }
+  .footer-social-links i {
+    margin-right: 5px;
   }
 }
 

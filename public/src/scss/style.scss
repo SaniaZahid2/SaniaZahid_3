@@ -216,6 +216,7 @@ footer {
         position: absolute;
         z-index: 9999;
         left: 0;
+        background-color: #ff04e2;
         background: #f0f0f0;
         transition: all 0.2s ease-out;
         li {
@@ -248,7 +249,7 @@ footer {
         display: flex;
     }
     .image-part {
-        flex: Flex1;
+        flex: $Flex1;
         overflow: hidden;
         margin-bottom: 0;
     }
@@ -261,7 +262,7 @@ footer {
     }
 
     .content-part {
-        flex: Flex1;
+        flex: $Flex1;
         padding-left: 50px;
     }
 
